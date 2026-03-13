@@ -3,5 +3,5 @@
 ### TUGAS 3 Pemrograman Perangkat Berbasis Android
 
 ```text
-├── Nama : Thomas Aquinas Ryan Wisnu Adi
-├── NIM : 71230975
+Nama : Thomas Aquinas Ryan Wisnu Adi
+NIM : 71230975
