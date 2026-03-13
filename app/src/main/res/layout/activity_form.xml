@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    tools:context=".FormActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/margin50dp"
+        android:layout_marginRight="@dimen/margin50dp"
+        android:layout_marginTop="@dimen/margin75dp"
+        >
+
+        <!-- Judul -->
+
+        <TextView
+            android:id="@+id/FormJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/formmahasiswa"
+            android:layout_gravity="center"
+            android:textSize="@dimen/text25dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="@dimen/margin10dp"
+            />
+
+        <!-- Foto UKDW -->
+
+        <ImageView
+            android:id="@+id/ImageUKDw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ukdw" />
+
+        <!-- NIM -->
+
+        <EditText
+            android:id="@+id/Formnim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin20dp"
+            android:layout_marginRight="@dimen/margin20dp"
+            android:layout_marginTop="@dimen/margin20dp"
+            android:background="@drawable/background"
+            android:hint="@string/nim" />
+
+        <!-- Nama -->
+
+        <EditText
+            android:id="@+id/Formnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin20dp"
+            android:layout_marginRight="@dimen/margin20dp"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:background="@drawable/background"
+            android:hint="@string/nama"
+            android:textAllCaps="false" />
+
+        <!-- Kota -->
+
+        <EditText
+            android:id="@+id/Formkota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin20dp"
+            android:layout_marginRight="@dimen/margin20dp"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:background="@drawable/background"
+            android:hint="@string/kota"
+            android:textAllCaps="false" />
+
+        <!-- Button Kirim -->
+        <Button
+            android:id="@+id/btnKirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Kirim"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text20dp"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/margin20dp"
+            android:background="@drawable/background"
+            />
+
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

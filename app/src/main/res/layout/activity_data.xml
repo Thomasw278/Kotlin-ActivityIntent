@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/teal_200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/margin50dp"
+        android:layout_marginRight="@dimen/margin50dp"
+        android:layout_marginTop="@dimen/margin100dp"
+        >
+
+        <!-- Foto UKDW -->
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="@drawable/ukdw"
+            />
+
+        <!-- Judul -->
+
+        <TextView
+            android:id="@+id/DataJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin10dp"
+            android:text="@string/datamahasiswa"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text25dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:layout_marginBottom="@dimen/margin10dp">
+
+                <!-- Text Nim -->
+
+                <TextView
+                    android:id="@+id/textnim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin10dp"
+                    android:text="NIM       : "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <!-- Isi NIM -->
+
+                <TextView
+                    android:id="@+id/tvnim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin10dp"
+                    android:text="@string/luaranteks"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:layout_marginBottom="@dimen/margin10dp">
+
+                <!-- Text Nama -->
+
+                <TextView
+                    android:id="@+id/textnama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin10dp"
+                    android:text="Nama    : "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <!-- Isi Nama -->
+
+                <TextView
+                    android:id="@+id/tvnama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin10dp"
+                    android:text="@string/luaranteks"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:layout_marginBottom="@dimen/margin10dp">
+
+                <!-- Text Kota -->
+
+                <TextView
+                    android:id="@+id/textkota"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin10dp"
+                    android:text="Kota      : "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <!-- Isi Kota -->
+
+                <TextView
+                    android:id="@+id/tvkota"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin10dp"
+                    android:text="@string/luaranteks"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!-- Button Kembali -->
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Kembali"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text20dp"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/margin10dp"
+            android:background="@drawable/background"
+            />
+
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Activity &amp; Intent</string>
+    <string name="form">Form</string>
+    <string name="linkedln">My Linkedln</string>
+    <string name="namamahasiswa">Thomas Aquinas Ryan Wisnu Adi / 71230975</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+    <string name="kota">Kota</string>
+    <string name="Kirim">Kirim</string>
+    <string name="Kembali">Kembali</string>
+    <string name="formmahasiswa">FORM MAHASISWA</string>
+    <string name="datamahasiswa">DATA MAHASISWA</string>
+    <string name="luaranteks"></string>
+</resources>

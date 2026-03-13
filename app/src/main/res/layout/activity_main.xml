@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- Button Form -->
+        <Button
+            android:id="@+id/btnForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text20dp"
+            android:padding="@dimen/padding30dp"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/margin10dp"
+            android:background="@drawable/background"
+            />
+
+        <!-- Button Linkedln -->
+        <Button
+            android:id="@+id/btnLinkedln"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linkedln"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text20dp"
+            android:padding="@dimen/padding30dp"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/margin10dp"
+            android:background="@drawable/background"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin50dp"
+        >
+
+        <!-- Text VIew Nama -->
+        <TextView
+            android:id="@+id/namamahasiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/namamahasiswa"
+            android:background="@drawable/background"
+            android:padding="@dimen/text10dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
